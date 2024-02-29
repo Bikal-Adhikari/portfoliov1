@@ -227,16 +227,25 @@ header .logo {
 }
 
 .middle-container .typing {
+  margin-top: -4rem;
   justify-content: center;
   grid-template-areas: "image para";
+  border: solid var(--color-dark);
+  width: fit-content;
+  border-radius: 20px;
+  padding: 10px 0 10px 10px;
+  box-shadow: var(--shadow);
 }
 
 .middle-container .typing img {
   grid-area: image;
+  border-radius: 50%;
 }
 .middle-container .typing p {
   grid-area: para;
   font-size: 1.5rem;
+  text-align: start;
+  padding-top: 50px;
 }
 
 footer {
