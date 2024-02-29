@@ -167,7 +167,7 @@ header .logo {
 
 .middle-container {
   background: var(--body-bg);
-  padding-top: 15rem;
+  padding-top: 6rem;
 }
 
 .hero {
@@ -182,9 +182,14 @@ header .logo {
   justify-content: center;
 }
 
+.left h2 {
+  margin-bottom: 10px;
+}
+
 .left p {
   font-weight: bold;
   font-size: 1.5rem;
+  margin: 0;
 }
 
 .left p span {
@@ -219,4 +224,23 @@ header .logo {
   border: 8px solid var(--color-orange);
   border-radius: 50%;
   box-shadow: 0 0 0 10px rgba(102, 191, 191, 0.4);
+}
+
+.middle-container .typing {
+  justify-content: center;
+  grid-template-areas: "image para";
+}
+
+.middle-container .typing img {
+  grid-area: image;
+}
+.middle-container .typing p {
+  grid-area: para;
+  font-size: 1.5rem;
+}
+
+footer {
+  background: #000;
+  color: white;
+  padding: 3rem;
 }
