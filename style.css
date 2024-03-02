@@ -316,6 +316,7 @@ header .logo {
 
 .project-card {
   box-shadow: var(--shadow);
+  border-radius: 15px;
 }
 
 .project-card .links {
@@ -323,6 +324,18 @@ header .logo {
   justify-content: center;
   margin-top: 2rem;
   letter-spacing: 1rem;
+}
+
+.projects img {
+  height: 80%;
+  width: 70%;
+  border: 8px solid var(--color-orange);
+  border-radius: 50%;
+  box-shadow: 0 0 0 10px rgba(102, 191, 191, 0.4);
+  margin-top: 6rem;
+}
+.project-card .bottom i {
+  font-size: 1.3rem;
 }
 footer {
   background: #000;
