@@ -67,6 +67,14 @@ hr {
   color: var(--text-color);
   overflow-x: hidden;
 }
+
+.title {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.title span {
+  border-bottom: 3px solid var(--color-orange);
+}
 /* dark toggler  */
 
 .dark-mode {
@@ -344,12 +352,32 @@ header .logo {
   padding: 7rem 0;
 }
 
+.about .about-content {
+  grid-template-areas:
+    "profile"
+    "bio2";
+}
+
 .about .myImg img {
   width: 60%;
   height: 60vh;
   border: 8px solid var(--color-orange);
   border-radius: 50%;
   box-shadow: 0 0 0 10px rgba(102, 191, 191, 0.4);
+}
+
+.about .about-content .myImg {
+  justify-content: center;
+  align-items: center;
+  grid-area: profile;
+}
+
+.about .my-bio .bio {
+  flex-direction: column;
+}
+
+.about .typing {
+  grid-area: bio2;
 }
 
 .about .my-bio h3 {
@@ -371,7 +399,7 @@ header .logo {
   padding: 0.8rem 1.2rem;
   border-radius: 5px;
 }
-.about .my-bio .tag + div > span:hover{
+.about .my-bio .tag + div > span:hover {
   cursor: pointer;
   background: grey;
   transition: all 0.3s;
