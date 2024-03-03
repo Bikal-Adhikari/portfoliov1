@@ -413,8 +413,80 @@ header .logo {
   padding-top: 50px;
 }
 
+/* contact  */
+
+.contact {
+  padding: 7rem 0;
+  width: 400px;
+  margin: auto;
+}
+
+.contact .social {
+  justify-content: space-between;
+  font-size: 4rem;
+}
+
+.contact h3 {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.contact .email-section {
+  background: black;
+  padding: 1rem 2rem;
+  color: white;
+  border-radius: 50px;
+  font-size: 1.3rem;
+  box-shadow: var(--shadow);
+}
+
+.contact .email-section .email {
+  align-items: center;
+}
+
+.contact .email-section .send {
+  background: var(--color-orange);
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+/* <!-- footer  --> */
 footer {
   background: #000;
   color: white;
   padding: 3rem;
+  margin-top: 5rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+.footer .top {
+  justify-content: space-around;
+}
+
+.goup {
+  font-size: 3rem;
+
+  width: 70px;
+  height: 70px;
+  background: var(--color-orange);
+  border-radius: 50%;
+  position: fixed;
+  bottom: 100px;
+  right: 50px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+#header {
+  padding-top: 7rem;
 }
