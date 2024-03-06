@@ -600,6 +600,9 @@ footer {
   .about .myImg {
     flex-direction: column;
   }
+  .about .about-content {
+    text-align: justify;
+  }
 
   .about .typing {
     display: none;
@@ -618,7 +621,7 @@ footer {
     /* display: none; */
     position: absolute;
     width: 250px;
-    top: 3.7rem;
+    top: 10rem;
     left: 100vw;
 
     background: var(--body-bg);
