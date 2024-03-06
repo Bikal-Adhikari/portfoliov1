@@ -235,7 +235,7 @@ header .logo {
 }
 
 /* banner  */
-.banner {
+/* .banner {
   margin-top: 7rem;
   border: 2px solid var(--border-color);
   border-radius: 50px;
@@ -273,8 +273,50 @@ header .logo {
   background: grey;
   height: 70px;
   width: 2px;
+} */
+
+.banner {
+  margin-top: 7rem;
+  border: 2px solid var(--border-color);
+  border-radius: 50px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  flex-wrap: wrap;
+
+  box-shadow: var(--shadow);
 }
 
+.banner .info-content div span {
+  font-weight: bolder;
+  font-size: 1.3rem;
+  letter-spacing: 5px;
+}
+.banner .info-content div p {
+  color: var(--color-orange);
+}
+
+.banner .icon-container {
+  background: var(--color-orange);
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.banner .icon-container i {
+  font-size: 2rem;
+
+  color: white;
+}
+
+.info-divider {
+  background: grey;
+  height: 70px;
+  width: 2px;
+}
 /* skils  */
 
 .skills {
@@ -538,7 +580,6 @@ footer {
 
   .banner {
     flex-direction: column;
-
     align-items: flex-start;
     padding-left: 20%;
   }
@@ -556,9 +597,21 @@ footer {
     flex-direction: column;
     align-items: center;
   }
-  /* .about .myImg {
-    width: 60%;
-  } */
+  .about .myImg {
+    flex-direction: column;
+  }
+
+  .about .typing {
+    display: none;
+  }
+
+  .about {
+    padding-bottom: 5px;
+  }
+
+  .contact {
+    padding-top: 5px;
+  }
 
   /* Menu  */
   .menu {
