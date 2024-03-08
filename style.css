@@ -590,8 +590,9 @@ footer {
     align-items: center;
     margin-left: 0;
   }
-  .right img {
-    width: 250px;
+  .hero .profile img {
+    width: auto;
+    height: auto;
   }
 
   .banner {
