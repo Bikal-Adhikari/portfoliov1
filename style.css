@@ -648,6 +648,10 @@ footer {
     gap: 3rem;
   }
 
+  footer .h3 {
+    font-size: 1.5rem;
+  }
+
   [for="hamburgerMenu"] {
     display: block;
   }
